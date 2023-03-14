@@ -18,7 +18,7 @@ col1,col2,col3 = st.columns(3)
 with col1:
     st.title("")
 with col2:
-    st.image("img\logo.png", width=300)
+    st.image("img/logo.png", width=300)
 with col3:
     st.title("")
 
@@ -39,7 +39,7 @@ def genere_selec(genero_select):
 st.title("Mi primera APP")
 
 #--------------------SIDEBAR----------------------------#
-st.sidebar.image("img\logo.png", width=150)
+st.sidebar.image("img/logo.png", width=150)
 st.sidebar.title("MENÚ")
 st.sidebar.subheader("Filtros para utilizar en la tabla")
 st.sidebar.write("")
